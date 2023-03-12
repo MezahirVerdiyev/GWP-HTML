@@ -1,0 +1,94 @@
+.section {
+    background-color: rgb(80, 105, 46);
+
+}
+
+.home7 {
+    background-color: bisque;
+}
+
+.button {
+    background-color: darkgreen;
+}
+
+.button:hover {
+    background-color: aqua;
+}
+
+.yas {
+    color: darkslategrey;
+}
+
+.tarix {
+    color: blueviolet;
+}
+
+.secin {
+    background-color: aqua;
+}
+
+.name:hover {
+    background-color: blue;
+}
+
+.surname:hover {
+    background-color: blue;
+}
+
+.poct:hover {
+    background-color: blue;
+
+}
+
+.parol:hover {
+    background-color: blue;
+}
+
+.value:hover {
+    background-color: green;
+}
+
+.hom1 {
+    color: brown;
+
+}
+
+.hom2 {
+    color: chocolate;
+}
+
+.hom3 {
+    color: darkmagenta;
+}
+
+.hom4 {
+    color: darkred;
+}
+
+.lorem1 {
+    color: blue;
+}
+
+.lorem2 {
+    color: red;
+}
+
+ul li {
+    color: green;
+}
+
+.home8 {
+    background-color: chartreuse;
+}
+
+.radio1 {
+    accent-color: red;
+}
+
+.radio2 {
+    accent-color: red;
+}
+
+.radio {
+    accent-color: red;
+}
