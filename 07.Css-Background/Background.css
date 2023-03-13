@@ -1,0 +1,67 @@
+.Register {
+    width: 300px;
+    border: 1px solid rgb(234, 236, 234);
+    padding: 10px;
+    margin: 20px;
+    
+
+} 
+
+.text{
+    background-position: left;
+    border: 1px solid white;
+    padding: 10px;
+}
+.salam {
+    background-image: url(./Sekil1.jpg);
+
+}.button:hover{
+    background-color: blue;
+    color: crimson;
+
+}
+
+.href {
+    margin: auto;
+
+}
+
+.div1 {
+    height: 300px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+.div2 {
+    height: 500px;
+    background-image: url(./Sekil02.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.div3 {
+    height: 800px;
+    background-image: url(./Sekil03.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+.div4 {
+    height: 500px;
+    background-image: url(./Sekil04.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.div5 {
+    height: 800px;
+    background-image: url(./Sekil05.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
