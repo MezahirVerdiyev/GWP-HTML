@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: none;
+}
+
+.img2 {
+    display: block;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .div2 {
+        display: flex;
+
+
+
+    }
+
+    h1 {
+        text-align: center;
+
+    }
+
+    .div1 {
+        width: 40%;
+        margin: 0 250px;
+
+
+
+
+    }
+
+    img {
+        display: block;
+        margin: 80px 300px;
+
+    }
+
+    .img2 {
+        display: none;
+    }
+}
