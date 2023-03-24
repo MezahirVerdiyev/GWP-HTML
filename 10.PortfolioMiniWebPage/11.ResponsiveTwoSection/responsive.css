@@ -1,0 +1,297 @@
+@media only screen and (max-width:778px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container1 {
+        background-color: rgb(190, 244, 244);
+        max-width: 1600px;
+
+    }
+
+    .text {
+        width: 350px;
+        margin: 0% auto;
+        color: #657382;
+    }
+
+    h3 {
+        margin-left: 40%;
+        color: #688f37;
+
+    }
+
+    .basliq1 {
+        margin: 3% 37%;
+    }
+
+    .button {
+        margin-left: 40%;
+        background-color: #688f37;
+        padding: 0 15px;
+        border-radius: 3%;
+    }
+
+    .sekil2 {
+        margin: 2% 30%;
+        border-radius: 5%;
+    }
+
+    h4 {
+        margin: 3% 40%;
+    }
+
+    .qiymet {
+        margin: 2% 45%;
+        color: #688f37;
+    }
+
+
+
+
+    .nomer1 {
+        background-color: aquamarine;
+        border-radius: 3%;
+        width: 350px;
+        margin-left: 25%;
+    }
+
+    .nomer1 img {
+        border-radius: 2%;
+
+    }
+
+    .nomer1 p {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .basliq2 {
+        margin: 3% 37%;
+
+    }
+
+    .button1 {
+        margin: 4% 35%;
+        background-color: #688f37;
+        padding: 0 15px;
+        border-radius: 3%;
+    }
+
+    .nomer2 {
+
+        background-color: aquamarine;
+        border-radius: 3%;
+        width: 350px;
+        margin-left: 25%;
+        margin-top: 6%;
+    }
+
+    .nomer2 img {
+        border-radius: 2%;
+    }
+
+
+
+    .nomer3 {
+
+        background-color: aquamarine;
+        border-radius: 3%;
+        width: 350px;
+        margin-left: 25%;
+        margin-top: 6%;
+    }
+
+    .nomer3 img {
+        border-radius: 2%;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    h2 {
+        margin-left: 40%;
+        color: #688f37;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width:778px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+    .container1 {
+        background-color: rgb(190, 244, 244);
+    }
+
+    .metn {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0 5%;
+
+
+
+
+    }
+
+    .metn p {
+        width: 80%;
+    }
+
+    .image2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5%;
+
+    }
+
+    .sekil2 {
+        border-radius: 5%;
+    }
+
+    .button {
+        margin: 3%;
+        background-color: #688f37;
+        padding: 4px 7px;
+        border-radius: 6%;
+        color: aliceblue;
+    }
+
+
+
+
+
+
+    h3 {
+
+        color: #688f37;
+    }
+
+    h2 {
+        margin-left: 40%;
+        color: #688f37;
+    }
+
+
+    .nomer1 {
+        background-color: aquamarine;
+        border-radius: 3%;
+        width: 350px;
+        margin-left: 25%;
+    }
+
+    .nomer1 img {
+        border-radius: 2%;
+
+    }
+
+    .nomer1 p {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .basliq2 {
+        margin: 3% 37%;
+
+    }
+
+    .button1 {
+        margin: 4% 35%;
+        background-color: #688f37;
+        padding: 0 15px;
+        border-radius: 3%;
+    }
+
+    .nomer2 {
+
+        background-color: aquamarine;
+        border-radius: 3%;
+        width: 350px;
+        margin-left: 25%;
+        margin-top: 6%;
+    }
+
+    .nomer2 img {
+        border-radius: 2%;
+    }
+
+
+
+    .nomer3 {
+
+        background-color: aquamarine;
+        border-radius: 3%;
+        width: 350px;
+        margin-left: 25%;
+        margin-top: 6%;
+    }
+
+    .nomer3 img {
+        border-radius: 2%;
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (min-width:992px) {
+
+    .container2{
+       width: 70vh;
+        background-color: #f9fcf6;
+    }
+    .ad {
+        display: flex;
+    }
+
+    .metn {
+      
+    }
+
+    .image2 {
+    }
+
+    .ad2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+        
+    }.yeni3{
+        margin-right: 19vh;
+       
+    }
+h2 {
+    margin-left: 100vh;
+}.basliq2{
+    margin-left: 100vh;{
+   
+}}
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}.section1{
+    background-color: rgb(102, 245, 245);
+    width: 100%;
+}.birinci{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}.text{
+    margin: 2% ;
+}.image1{
+    margin: 2% ;
+}.image2{
+    margin: 2% ;
+}.image3{
+    margin: 2% ;
+    
+}.button{
+    background-color: #688f37;
+    padding: 1% 3%;
+    border-radius: 4%;
+}.button:hover{
+    background-color: rgb(221, 56, 23);
+    color: white;
+}.image1 img{
+    border-radius: 3%;
+}.image2 img{
+    border-radius: 3%;
+}.image3 img{
+    border-radius: 3%;
+}.cerciveler{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}.container1{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 5%;
+}
+.container2{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 5%;
+}
+.container3{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 5%;
+}.container1 p{
+    width: 30vh;
+}.container2 p{
+    width: 30vh;
+}.container3 p{
+    width: 30vh;
+}.basliq{
+    text-align: center;
+}.Button2{
+    padding: 2% 4%;
+    background-color: #688f37;
+    border-radius: 5%;
+}.container1 img{
+    border-radius: 5%;
+}.container2 img{
+    border-radius: 5%;
+}.container3 img{
+    border-radius: 5%;
+}h3{
+    color: #688f37;
+}p{
+    color: #9cacbb;
+}.image1 p{
+    color:#688f37;
+}.image2 p{
+    color:#688f37;
+}.image3 p{
+    color:#688f37;
+}
+
+
+
+@media only screen and (max-width:992px) {
+    .cerciveler{
+        display: inline-block;
+        margin-left: 40%;
+    }.box{
+        margin-top: 10px;
+    }.birinci{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width:778px) {
+.birinci{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+justify-content: center;
+}
+
+
+
+
+    
+}
