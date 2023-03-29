@@ -14,3 +14,5 @@
 - https://6424a830ff8c2238262c4be8--serene-gingersnap-bb4296.netlify.app/
 ## 27.03.2023 task:
 - https://6424a8740adbd3350fa70d8d--timely-sunshine-fe9b7e.netlify.app/
+## Galaxy task:
+- https://6424a8d825f06432440f7fd8--effortless-melomakarona-d2ec87.netlify.app/
