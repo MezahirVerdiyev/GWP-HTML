@@ -69,16 +69,26 @@
 
 .sec2{
     background-color: black; 
-   
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .rotate2 {
     position: relative;
     height: 100vh;
+    width: 100vh;
+    
+    
     animation-name: lunar;
     animation-duration: 40s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
    
     
@@ -86,15 +96,15 @@
 }
 
 .earth {
-    height: 40vh;
-    width: 40vh;
+    height: 30vh;
+    width: 30vh;
     position: absolute;
     top: 35%;
     left: 35%;
     animation-name: earth;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    margin:10px 0 0 10px ;
+    
     animation-timing-function: linear;
     
 
@@ -102,8 +112,8 @@
    
 
 }.lunar {
-    height: 10vh;
-    width: 10vh;
+    height: 3vh;
+    width: 3vh;
     position: absolute;
     top: 30%;
     left: 57%;
