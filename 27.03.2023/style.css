@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: black;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    
+}
+
+nav ul i {
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+
+    color: rgb(240, 227, 227);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+nav ul a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 6%;
+    padding: 3px 6px;
+
+}
+
+.text span {
+    color: orange
+}
+
+.text {
+    text-align: center;
+    width: 90vh;
+    font-size: 20px;
+}
+
+.text span {
+    text-shadow: 6px 3px 3px orangered;;
+}
+
+.image {
+    background-image: url(./Image4.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image2 {
+    background-image: url(./Image3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.container3 {
+    background-color: grey;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background-color: blue;
+}
+
+.box2 {
+    background-color: aqua;
+}
+
+.box3 {
+    background-color: brown;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: orangered;
+}.fa-bars {
+    display: none;
+
+}.div3{
+    width: 90px;
+    height: 3px;
+    background-color: green;
+    margin-left: 28vh;
+}
+
+
+
+
+
+@media only screen and (max-width:767px){
+    .image {
+        background-image: url(./Image5.jpg);
+        background-size: cover;
+        background-attachment: scroll;
+        height: 100vh;
+}.image .text{
+    display: none;
+}.home{
+    display: none;
+}.fa-bars{
+    display: inline;
+}.fa-magnifying-glass{display: none;
+
+}
+}
