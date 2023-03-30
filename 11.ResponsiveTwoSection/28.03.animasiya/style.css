@@ -67,61 +67,6 @@
 
 
 
-
-
-/* .lunar{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-   
-    position: absolute;
-    top: 150%;
-    left: 60%;
-    transform: translate(-50% 100%);
-    
-
-}.earth{
-    width: 300px;
-    animation-name: earth;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    transform: translate(-50% 100%);
-    position: absolute;
-    top: 120%;
-    left: 35%;
-}.rotate2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    height: 100vh;
-    animation-name: earth;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-
-
- 
-@keyframes earth{
-    from{
-        transform: rotate(0deg)   translate(-50% 100%); 
-  }
-    
-    to{
-        transform: rotate(360deg) translate(-50% 100%); 
-    }
-}
-@keyframes lunar{
-    from{
-        transform: rotate(0deg)   translate(-50% 100%); 
-  }
-    
-    to{
-        transform: rotate(360deg) translate(-50% 100%); 
-    }
-} */
-
-
 .sec2{
     background-color: black; 
    
@@ -133,6 +78,7 @@
     animation-name: lunar;
     animation-duration: 40s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
    
     
@@ -149,6 +95,7 @@
     animation-duration: 10s;
     animation-iteration-count: infinite;
     margin:10px 0 0 10px ;
+    animation-timing-function: linear;
     
 
 
@@ -160,12 +107,6 @@
     position: absolute;
     top: 30%;
     left: 57%;
-    
-    
-    
-
-   
-
 }
 @keyframes lunar{
     from{

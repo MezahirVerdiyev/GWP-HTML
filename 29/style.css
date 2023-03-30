@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(15, 15, 15);
+  height: 10vh;
+}
+header nav ul li {
+  padding: 8px 16px;
+}
+header nav ul li i {
+  color: rgb(251, 248, 248);
+}
+header nav ul li a {
+  color: rgb(255, 252, 252);
+}
+header nav ul li:hover {
+  background-color: red;
+  border-radius: 10%;
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container .box {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box img {
+  width: 200px;
+  height: 200px;
+  display: none;
+}
+.container .box:hover {
+  transform: rotateX(360deg);
+  transition-duration: 2s;
+}
+.container .box:hover img {
+  display: block;
+}
+.container .box:hover h1 {
+  display: none;
+}
+
+footer {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(160, 156, 156);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .container1 {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */

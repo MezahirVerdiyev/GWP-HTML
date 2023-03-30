@@ -1,0 +1,30 @@
+header {
+    nav {
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(15, 15, 15);
+            height: 10vh;
+
+            li {
+                padding: 8px 16px;
+                i {
+                    color: rgb(251, 248, 248);
+                }
+                a {
+                    color: rgb(255, 252, 252);
+                }
+                &:hover {
+                    background-color: red;
+                    border-radius: 10%;
+                    transform: scale(1.2);
+                    transition-duration: 1s;
+                    
+                }
+
+
+            }
+        }
+    }
+}
