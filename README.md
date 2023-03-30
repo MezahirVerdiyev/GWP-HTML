@@ -8,6 +8,8 @@
 - https://6424a719ff8c2236842c4de9--darling-druid-b7b0d7.netlify.app/
 ## 07.Css-Background task:
 - https://6424a09470f8f62cd2d23e1a--glistening-sprinkles-b9c81c.netlify.app/
+## Classwork Task:
+-https://resonant-khapse-032620.netlify.app/
 ##08.CSS Task:
 -https://zesty-starlight-1d143f.netlify.app/
 ## 10.PortfolioMiniWebPage Task:
