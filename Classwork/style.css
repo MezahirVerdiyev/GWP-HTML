@@ -1,0 +1,17 @@
+form{
+    background-color: rgb(82, 82, 213);
+}h3{
+    color: brown;
+}
+.submit{
+    padding:3px ,6px ;
+    background-color:green ;
+    color: aliceblue;
+
+}.submit:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.skip{
+    color: rgb(4, 72, 21);
+}
