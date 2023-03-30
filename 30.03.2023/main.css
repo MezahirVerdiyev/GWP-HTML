@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;700&family=Grand+Hotel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;700&family=Grand+Hotel&display=swap");
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+header {
+  background-image: url(./Image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header .container nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .container nav ul li {
+  color: white;
+  font-size: 24px;
+  margin-top: 20px;
+}
+header .container .header2 {
+  width: 50%;
+  transform: translate(20vh, 40vh);
+}
+header .container .header2 .text1 {
+  display: flex;
+}
+header .container .header2 .text1 .image img {
+  transition: 1s;
+  padding-top: 160px;
+  padding-left: 160px;
+}
+header .container .header2 .text1 .image img:hover {
+  transform: translate(258px, -255px);
+}
+header .container .header2 .text1 .text {
+  transform: translate(-10vh, -25vh);
+}
+header .container .header2 .text1 .text p {
+  color: #8a7162;
+  font-size: 50px;
+  font-family: "Catamaran", sans-serif;
+}
+header .container .header2 .text1 .text h1 {
+  font-size: 72px;
+  color: white;
+  font-family: "Catamaran", sans-serif;
+}
+header .container .header2 .text1 .text input {
+  background-color: #8a7162;
+  border: 1px solid #8a7162;
+  border-radius: 5%;
+  padding: 6px 20px;
+  font-size: 24px;
+}
+header .container .header2 .text1 .text input:hover {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
