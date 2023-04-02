@@ -29,3 +29,5 @@
 -https://harmonious-haupia-dc48a8.netlify.app/
 ## 31.03.2023 Task:
 -https://gleaming-naiad-b794ea.netlify.app/
+## 14.SCSS-QuicqlyLandingPage Task:
+-https://idyllic-torrone-cac01e.netlify.app/
