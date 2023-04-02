@@ -10,7 +10,7 @@
 - https://6424a09470f8f62cd2d23e1a--glistening-sprinkles-b9c81c.netlify.app/
 ## Classwork Task:
 -https://resonant-khapse-032620.netlify.app/
-##08.CSS Task:
+## 08.Css Task:
 -https://zesty-starlight-1d143f.netlify.app/
 ## 10.PortfolioMiniWebPage Task:
 - https://6424a7cf7b2f2a413db8f2e6--bespoke-chebakia-db9ce9.netlify.app/
