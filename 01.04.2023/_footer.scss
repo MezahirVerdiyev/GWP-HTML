@@ -1,0 +1,30 @@
+.Footer {
+    background-color: #20484F;
+    color: white;
+
+    .xet {
+
+        @include gorunus;
+        height: 40vh;
+
+
+        .esas {
+
+            .sign {
+                background-color: aqua;
+                color: black;
+
+               
+            }
+        }
+
+        .esas2 {
+            @include gorunus;
+            
+        }
+    }
+
+    .quckly {
+        text-align: center;
+    }
+}

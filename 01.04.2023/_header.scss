@@ -1,0 +1,19 @@
+.container {
+    nav {
+        @include gorunus;
+        background-color: rgb(29, 121, 84);
+        height: 10vh;
+        color: white;
+        width: 100%;
+
+        ul {
+            @include gorunus;
+            width: 50%;
+
+        }
+
+    }.btn{
+        @include gorunus;
+    }
+}
+

@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(29, 121, 84);
+  height: 10vh;
+  color: white;
+  width: 100%;
+}
+.container nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+.container .btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.block .container1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 4%;
+}
+.block .container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 4%;
+}
+
+@media screen and (max-width: 992px) {
+  .block .container1 {
+    display: block;
+    text-align: center;
+    gap: 3px;
+  }
+  .block .container2 {
+    display: block;
+    text-align: center;
+    gap: 3px;
+  }
+}
+.container3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 90px;
+  height: 100vh;
+}
+.container3 .butonlar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: start;
+}
+.container3 .section2 {
+  text-align: center;
+  width: 80%;
+}
+
+.Footer {
+  background-color: #20484F;
+  color: white;
+}
+.Footer .xet {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+}
+.Footer .xet .esas .sign {
+  background-color: aqua;
+  color: black;
+}
+.Footer .xet .esas2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Footer .quckly {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
