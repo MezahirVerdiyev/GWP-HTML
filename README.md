@@ -32,3 +32,5 @@
 -https://gleaming-naiad-b794ea.netlify.app/
 ## 14.SCSS-QuicqlyLandingPage Task:
 -https://idyllic-torrone-cac01e.netlify.app/
+## 14.SCSS-quicqlyLandingPage Task:
+-https://unique-druid-64b8d6.netlify.app/
