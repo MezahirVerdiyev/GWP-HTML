@@ -1,0 +1,78 @@
+.basliq {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+
+    h1 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+}
+
+.team {
+
+    margin: auto;
+
+    .box1 {
+        .sekil1 {
+            @include gorunus;
+            margin-bottom: 10px;
+
+            div {
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+
+
+            h4 {
+                font-family: 'Plus Jakarta Sans', sans-serif;
+            }
+
+        }
+
+        .sekil2 {
+            div {
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
+
+            @include gorunus;
+
+            h4 {
+                font-family: 'Plus Jakarta Sans', sans-serif;
+            }
+        }
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:761px) {
+    .team {
+        .box1 {
+            text-align: center;
+
+            .sekil1 {
+                display: block;
+
+            }
+
+            .sekil2 {
+                display: block;
+            }
+        }
+    }
+}

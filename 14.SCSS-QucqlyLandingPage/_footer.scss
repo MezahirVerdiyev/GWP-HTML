@@ -1,0 +1,62 @@
+.footer {
+    background-color: #072125;
+    color: white;
+
+    .baza {
+        @include gorunus;
+       
+
+        .start {
+            h5 {
+                font-family: 'Plus Jakarta Sans', sans-serif;
+            }
+
+            .email {
+                position: relative;
+                border-radius: 7%;
+
+                .email1 {
+                    width: 100%;
+
+                    &:focus {
+                        background-color: #B8E4DA;
+                        border: none;
+                    }
+                }
+
+                .button {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    background-color: #B8E4DA;
+
+                }
+            }
+        }
+
+        .list {
+            @include gorunus;
+        }
+    }
+
+    .quickly {
+        text-align: center;
+    }
+}
+@media screen and (max-width:761px){
+.footer{
+    .baza{
+        
+    display: block;
+    text-align: center;
+    .email{
+        width: 30%;
+        margin: 0 auto;
+    }
+        .list{
+            display: block;
+        }
+    }
+}
+
+}

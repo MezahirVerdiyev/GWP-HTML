@@ -1,0 +1,27 @@
+header {
+    
+    background-image: url(./image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    nav {
+        background-color: rgb(232, 191, 142);
+        position: fixed;
+        width: 100%;
+
+        ul {
+            display: flex;
+            height: 10vh;
+            justify-content: space-around;
+            align-items: center;
+            color: black;
+            li{
+               
+                font-size: large;
+            }
+         
+
+        }
+    }
+}

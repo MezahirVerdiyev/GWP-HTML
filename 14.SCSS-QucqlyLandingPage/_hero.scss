@@ -1,0 +1,37 @@
+.sectionhero{
+    height: 100vh;
+   
+    .esas{
+        @include gorunus;
+        margin: auto;
+        height: 100vh;
+       
+        .esas1{
+            p{
+                //  width: 50%;
+                font-size: 16px;
+            }
+            h1{
+                // width: 40%;
+                color: #072125;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+            }
+            h5{
+                font-family: 'Plus Jakarta Sans', sans-serif;
+            }
+        }
+    }
+}
+@media screen and (max-width:761px){
+    .sectionhero{
+        margin-top: 10vh;
+        .esas{
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+
+
+

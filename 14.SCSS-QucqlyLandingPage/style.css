@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;1,200;1,400&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header {
+  background-color: #20484F;
+  width: 100%;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFFFFF;
+  height: 10vh;
+}
+header nav b {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+header nav div button {
+  background-color: #B8E4DA;
+  padding: 10px, 16px, 10px, 16px;
+  color: #20484F;
+}
+header nav div a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+header nav .bar {
+  display: none;
+}
+
+@media screen and (max-width: 761px) {
+  header nav ul {
+    display: none;
+  }
+  header nav div {
+    display: none;
+  }
+  header nav .bar {
+    display: block;
+  }
+}
+.basliq {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.basliq h1 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.team {
+  margin: auto;
+}
+.team .box1 .sekil1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.team .box1 .sekil1 div:hover {
+  opacity: 0.6;
+}
+.team .box1 .sekil1 h4 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.team .box1 .sekil2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.team .box1 .sekil2 div:hover {
+  opacity: 0.6;
+}
+.team .box1 .sekil2 h4 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+@media screen and (max-width: 761px) {
+  .team .box1 {
+    text-align: center;
+  }
+  .team .box1 .sekil1 {
+    display: block;
+  }
+  .team .box1 .sekil2 {
+    display: block;
+  }
+}
+.sectionhero {
+  height: 100vh;
+}
+.sectionhero .esas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
+.sectionhero .esas .esas1 p {
+  font-size: 16px;
+}
+.sectionhero .esas .esas1 h1 {
+  color: #072125;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.sectionhero .esas .esas1 h5 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+@media screen and (max-width: 761px) {
+  .sectionhero {
+    margin-top: 10vh;
+  }
+  .sectionhero .esas {
+    display: block;
+    text-align: center;
+  }
+}
+.footer {
+  background-color: #072125;
+  color: white;
+}
+.footer .baza {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .baza .start h5 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.footer .baza .start .email {
+  position: relative;
+  border-radius: 7%;
+}
+.footer .baza .start .email .email1 {
+  width: 100%;
+}
+.footer .baza .start .email .email1:focus {
+  background-color: #B8E4DA;
+  border: none;
+}
+.footer .baza .start .email .button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #B8E4DA;
+}
+.footer .baza .list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .quickly {
+  text-align: center;
+}
+
+@media screen and (max-width: 761px) {
+  .footer .baza {
+    display: block;
+    text-align: center;
+  }
+  .footer .baza .email {
+    width: 30%;
+    margin: 0 auto;
+  }
+  .footer .baza .list {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */

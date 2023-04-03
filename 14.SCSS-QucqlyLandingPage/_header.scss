@@ -1,0 +1,65 @@
+header {
+    background-color: #20484F;
+    width: 100%;
+
+    nav {
+        @include gorunus;
+        color: #FFFFFF;
+        height: 10vh;
+
+
+        b {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        ul {
+            @include gorunus;
+            gap: 50px;
+
+        }
+
+        div {
+
+            button {
+                background-color: #B8E4DA;
+                padding: 10px, 16px, 10px, 16px;
+                color: #20484F;
+
+            }
+
+            a {
+                list-style-type: none;
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+        }
+
+        .bar{
+            display:none;
+        }
+    }
+}
+@media screen and (max-width:761px){
+    header{
+        nav{
+            ul{
+                display: none;
+            }
+            div{
+                display: none;
+            }
+            .bar{
+                display: block;
+            }
+        }
+    }
+}
+
+
+
+
+    
+
+
+
+
