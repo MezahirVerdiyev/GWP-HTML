@@ -30,7 +30,7 @@
 -https://harmonious-haupia-dc48a8.netlify.app/
 ## 31.03.2023 Task:
 -https://gleaming-naiad-b794ea.netlify.app/
-## 14.SCSS-QuicqlyLandingPage Task:
--https://idyllic-torrone-cac01e.netlify.app/
 ## 14.SCSS-quicqlyLandingPage Task:
 -https://unique-druid-64b8d6.netlify.app/
+## 03.04.2023 Task:
+-https://enchanting-pika-d625fb.netlify.app/
