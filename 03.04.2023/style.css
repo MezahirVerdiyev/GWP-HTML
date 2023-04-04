@@ -50,4 +50,125 @@ header nav ul li {
 .fon .text h3 {
   color: white;
   font-size: xx-large;
+}
+
+.minions {
+  height: 100vh;
+}
+.minions h1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 80px;
+}
+.minions h1::after {
+  content: "";
+  width: 10%;
+  position: absolute;
+  height: 2px;
+  bottom: -15px;
+  background-color: yellow;
+}
+.minions .row {
+  margin-top: 10px;
+}
+.minions .row .box {
+  height: 200px;
+  border: 1px dashed #000;
+  background-color: #923e8b;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+.minions .row .box h3 {
+  font-size: 24px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.minions .row .box:hover {
+  animation: rotation 1s linear;
+  background-image: url(../images/img.webp);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+.minions .row .box:hover h3 {
+  display: none;
+}
+.minions .row .box:nth-child(even) {
+  background-color: #1aab5c;
+}
+.minions .row .box:nth-child(even):hover {
+  background-image: url(../images/img3.jpg);
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+  }
+  0% {
+    transform: rotateX(0deg);
+  }
+}
+.contact {
+  margin-top: 15rem;
+  height: 80vh;
+  position: relative;
+  border: 1px solid #000;
+  background-color: #f4f5f9;
+}
+.contact .row {
+  height: 80vh;
+}
+.contact h2 {
+  letter-spacing: 1px;
+  padding-left: 4rem;
+  font-size: 50px;
+  color: #4a4a4a;
+  font-weight: bolder;
+}
+.contact form input {
+  margin-left: 10px;
+  color: #373a3c;
+  border: 1px dashed #373a3c;
+  background-color: #fff;
+  width: 240px;
+  height: 50px;
+  padding: 7px 20px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1;
+  outline: #f4f5f9;
+  margin-bottom: 10px;
+}
+.contact form select {
+  border: 1px dashed #373a3c;
+  background-color: #fff;
+  width: 100px;
+  height: 50px;
+  padding: 8px 20px;
+  margin-left: 10px;
+  color: #373a3c;
+  outline: #f4f5f9;
+}
+.contact form .number {
+  width: 380px;
+}
+.contact form .jobs {
+  width: 495px;
+}
+.contact form button {
+  margin-top: 2rem;
+  width: 496px;
+  margin-left: 10px;
+  background-color: #fcba00;
+  padding: 15px 0;
+  border: none;
+  color: #373a3c;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */

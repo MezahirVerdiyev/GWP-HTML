@@ -1,0 +1,66 @@
+.minions {
+    height: 100vh;
+    h1 {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      margin-bottom: 80px;
+      &::after {
+        content: "";
+        width: 10%;
+        position: absolute;
+        height: 2px;
+        bottom: -15px;
+        background-color: yellow;
+      }
+    }
+    .row {
+      margin-top: 10px;
+      .box {
+        height: 200px;
+        border: 1px dashed #000;
+        background-color: #923e8b;
+        background-position: center;
+        background-size: cover;
+        transition: 0.5s;
+        h3 {
+          font-size: 24px;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          height: 100%;
+        }
+  
+        &:hover {
+          animation: rotation 1s linear;
+          background-image: url(../images/img.webp);
+          background-size: cover;
+          background-position: center;
+          background-size: cover;
+          display: flex;
+          h3 {
+            display: none;
+          }
+        }
+      }
+      .box:nth-child(even) {
+        background-color: #1aab5c;
+        &:hover {
+          background-image: url(../images/img3.jpg);
+        }
+      }
+    }
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotateX(0deg);
+    }
+    50% {
+      transform: rotateX(90deg);
+    }
+    0% {
+      transform: rotateX(0deg);
+    }
+  }
+  
